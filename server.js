@@ -16,7 +16,7 @@ app.use(express.json());
 app.use(express.static("public"));
 
 // connecting to the database
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/budget", {
+mongoose.connect(process.env.MONGODB_URI || "https://shielded-hamlet-51470.herokuapp.com/", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
