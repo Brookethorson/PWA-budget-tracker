@@ -3,7 +3,7 @@ const logger = require("morgan");
 const mongoose = require("mongoose");
 const compression = require("compression");
 
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3010;
 
 const app = express();
 
@@ -16,7 +16,7 @@ app.use(express.json());
 app.use(express.static("public"));
 
 // connecting to the database
-mongoose.connect(process.env.MONGODB_URI || "https://shielded-hamlet-51470.herokuapp.com/", {
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/budget", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
