@@ -33,8 +33,8 @@ Node packages: compression, express, lite-server, mongoose, and morgan
 
 ## URL 
 
-![Heroku](https://shielded-hamlet-51470.herokuapp.com/)
-![GitHub](https://brookethorson.github.io/PWA-budget-tracker/)
+https://shielded-hamlet-51470.herokuapp.com/
+https://brookethorson.github.io/PWA-budget-tracker/
 
 ## Contribution 
 
